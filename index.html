@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Profile</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.png" alt="My Profile Image" id="profile-img" />
+        <p>
+          Hello! I'm [Your Name], a web developer with a passion for creating
+          dynamic and responsive web applications.
+        </p>
+        <button id="read-more">Read More</button>
+        <div id="more-info" style="display: none">
+          <p>
+            I have experience in various technologies including HTML, CSS,
+            JavaScript, and more.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </section>
+
+      <
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/your-github-repo">Portfolio Website</a>
+          </li>
+          <li><a href="https://github.com/your-github-repo">To-Do App</a></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Subscribe to Newsletter</h2>
+        <form id="newsletter-form">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <button type="submit">Subscribe</button>
+          <div id="error-message" style="color: red; display: none"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 by [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
